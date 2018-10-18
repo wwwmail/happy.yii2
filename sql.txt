@@ -1,0 +1,6 @@
+create table if not exists types (
+id int(4) not null auto_increment,
+title varchar(55) default null,
+active int(1) default null,
+primary key(id)
+)
